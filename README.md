@@ -1,5 +1,6 @@
 # Curated 16S rRNA sequence databases and DD2B
 Chieh Hua Lin
+
 email : mammer@nhri.edu.tw
 
 ----
@@ -16,7 +17,7 @@ We also propose an improved approach to taxonomy assignment, DD2B, which can inc
 
 ### Curated DB
 
-For each curated database, FASTA files with BLAST and DADA2 format are provided in the following subfolders.
+For each curated database, FASTA files with BLAST and DADA2 format are provided in the following subfolders. All files were compressed into single zip file.
 
 - EzBioCloud
 
