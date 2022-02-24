@@ -11,7 +11,8 @@ The aim of this study was to construct a unified 16S rRNA database (U16S) with s
 
 We also propose an improved approach to taxonomy assignment, DD2B, which can increase the accuracy of taxonomic assignment by reducing the number of misclassified reads. DD2B was designed to overcome the shortcomings of the Ribosomal Database Project classifier, which cannot discriminate closely related organisms; this is achieved using the basic local alignment search tool (BLAST).
 
-
+DD2B with U16 demostration :
+<https://mammerlin.github.io/DD2B/>
 
 ## Content
 
