@@ -26,7 +26,7 @@ For each curated database, FASTA files with BLAST and DADA2 format are provided 
 
 - RefSeq.16S
 
-  sequences retrieved on August 3, 2021
+  sequences retrieved on Jaunary 19, 2023
 
 - SILVA
 
