@@ -1,7 +1,7 @@
 # Curated 16S rRNA sequence databases and DD2B
 Chieh Hua Lin
 
-email : mammer@nhri.edu.tw
+email : mammer@gapp.nthu.edu.tw
 
 ----
 
