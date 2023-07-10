@@ -1,4 +1,4 @@
-# Curated 16S rRNA sequence databases and DD2B
+# Curated 16S rRNA sequence databases and DPOT
 Chieh Hua Lin
 
 email : mammer@gapp.nthu.edu.tw
@@ -7,12 +7,12 @@ email : mammer@gapp.nthu.edu.tw
 
 ## About
 
-The aim of this study was to construct a unified 16S rRNA database (U16S) with systematic curation to provide scientific nomenclature in taxonomic ranks and thus improve taxonomic classification accuracy and interpretation. Up-to-date 16S rRNA gene sequences were collected from the 16S ribosomal RNA data on the RefSeq,  SILVA, and EzBioCloud databases. Because the taxonomic hierarchies of the three databases were formed using different approaches, comparing and consolidating the data are challenging. Therefore, the NCBI Taxonomy database was used as the standard in curating the taxonomic information in the three databases.
+The objective of this research was to establish a unified 16S rRNA database (U16S) via systematic curation, to standardize scientific nomenclature across taxonomic ranks, and consequently enhance the accuracy and interpretation of taxonomic classification. We compiled the most current 16S rRNA gene sequences from RefSeq, SILVA, and EzBioCloud databases. Given that each database employed varying methodologies in forming their taxonomic hierarchies, data comparison and consolidation presented significant challenges. Hence, we used the NCBI Taxonomy database as our benchmark standard for curating taxonomic information across the three databases.
 
-We also propose an improved approach to taxonomy assignment, DD2B, which can increase the accuracy of taxonomic assignment by reducing the number of misclassified reads. DD2B was designed to overcome the shortcomings of the Ribosomal Database Project classifier, which cannot discriminate closely related organisms; this is achieved using the basic local alignment search tool (BLAST).
+We propose a refined approach for taxonomy assignment, which we term as DADA2 Pipeline with Optimized Taxonomy (DPOT). This method, based on the DADA2 pipeline, enhances accuracy by mitigating the misclassification of reads. DPOT uses the BLAST program to overcome DADA2's limitations in distinguishing closely related organisms. Our results demonstrate that DPOT, combined with curated SILVA or U16S, enables accurate species-level resolution. 
 
 ### Demostration of DD2B with U16S :
-<https://mammerlin.github.io/DD2B/>
+<https://mammerlin.github.io/DPOT/>
 
 ## Content
 
@@ -36,6 +36,6 @@ For each curated database, FASTA files with BLAST and DADA2 format are provided 
 
   integration of three curated databases followed by removing duplicate sequences
 
-### DD2B
+### DPOT
 
-The new classification pipeline (DD2B) implemented in this study was written in the R language.
+The DADA2 Pipeline with Optimized Taxonomy (DPOT) implemented in this study was written in the R language.
