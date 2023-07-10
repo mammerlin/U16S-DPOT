@@ -11,7 +11,7 @@ The objective of this research was to establish a unified 16S rRNA database (U16
 
 We propose a refined approach for taxonomy assignment, which we term as DADA2 Pipeline with Optimized Taxonomy (DPOT). This method, based on the DADA2 pipeline, enhances accuracy by mitigating the misclassification of reads. DPOT uses the BLAST program to overcome DADA2's limitations in distinguishing closely related organisms. Our results demonstrate that DPOT, combined with curated SILVA or U16S, enables accurate species-level resolution. 
 
-### Demostration of DD2B with U16S :
+### Demostration of DPOT with U16S :
 <https://mammerlin.github.io/DPOT/>
 
 ## Content
